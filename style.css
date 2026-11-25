@@ -117,7 +117,7 @@ body {
 }
 /* Home Page */
 #hero {
-    background-image: url("img/Hero4.png");
+    background-image: url("Hero4.png");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -352,5 +352,28 @@ body {
     .fe-box {
         flex: 1 1 calc(50% - 16px);
         max-width: 180px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    #hero {
+        width: 100%;
     }
 }
